@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(144, 20, 201);
+    background-image: url(images/bg-desktop.svg);
+    overflow: hidden;
+}
+
+.nav{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.principal{
+    display: flex;
+    margin: 60px;
+}
+
+.container-content{
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    height:500px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+
+button{
+    color:white;
+    border: none;
+    border-radius: 35px;
+    font-size: 20px;
+    padding: 15px 50px 15px 50px;
+    color:rgb(144, 20, 201);
+    box-shadow: 3px 3px 15px black;
+    transition: all .3s ease;
+}
+
+button:hover{
+    background-color: violet;
+    color:white;
+}
+
+.social {
+    text-align:right;
+    display: flex;
+    justify-content:end;
+    position: relative;
+    bottom: -150px;
+}
+
+.social a i {
+    color:white;
+    font-size: 18px;
+}
+
+.social .boxface{
+    margin:10px;
+    padding:10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.social .box {
+    margin:10px;
+    padding:10px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
